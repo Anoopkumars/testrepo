@@ -1,0 +1,354 @@
+{
+	"info": {
+		"name": "Insurance",
+		"_postman_id": "d41cac74-bcfd-c909-472b-2c46e6683547",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Karvat Soap Hit",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "text/xml"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "<?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<soap:Envelope xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xmlns:xsd=\"http://www.w3.org/2001/XMLSchema\" xmlns:soap=\"http://schemas.xmlsoap.org/soap/envelope/\">\r\n  <soap:Body>\r\n    <CreatePolicy xmlns=\"https://karvatgroup.in/trawelltag/\">\r\n      <Data>string</Data>\r\n      <Ref>string</Ref>\r\n    </CreatePolicy>\r\n  </soap:Body>\r\n</soap:Envelope>"
+				},
+				"url": {
+					"raw": "http://www.karvatgroup.org/trawelltag/v2/agentapiv2.asmx",
+					"protocol": "http",
+					"host": [
+						"www",
+						"karvatgroup",
+						"org"
+					],
+					"path": [
+						"trawelltag",
+						"v2",
+						"agentapiv2.asmx"
+					]
+				},
+				"description": "Karvat Soap Hit"
+			},
+			"response": []
+		},
+		{
+			"name": "GetPlans",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5549/insurance-service/insurance/getPlans?categoryCode=DE5EE71C-098F-4CC0-B486-E69391CC9FA8&countryCode=4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5549",
+					"path": [
+						"insurance-service",
+						"insurance",
+						"getPlans"
+					],
+					"query": [
+						{
+							"key": "categoryCode",
+							"value": "DE5EE71C-098F-4CC0-B486-E69391CC9FA8",
+							"equals": true
+						},
+						{
+							"key": "countryCode",
+							"value": "4",
+							"equals": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetPremium",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5549/insurance-service/insurance/getPremium?planCode[0]=29918ae3-3094-40a8-b820-13a4f1e4bb24&age=45&noOfDays=14",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5549",
+					"path": [
+						"insurance-service",
+						"insurance",
+						"getPremium"
+					],
+					"query": [
+						{
+							"key": "planCode[0]",
+							"value": "29918ae3-3094-40a8-b820-13a4f1e4bb24",
+							"equals": true
+						},
+						{
+							"key": "age",
+							"value": "45",
+							"equals": true
+						},
+						{
+							"key": "noOfDays",
+							"value": "14",
+							"equals": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCountryAndCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5549/insurance-service/insurance/getCountryAndCategory",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5549",
+					"path": [
+						"insurance-service",
+						"insurance",
+						"getCountryAndCategory"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCoverageDetails",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:5549/insurance-service/insurance/getCoverage?x=0",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5549",
+					"path": [
+						"insurance-service",
+						"insurance",
+						"getCoverage"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "0",
+							"equals": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "saveTravellerDetails",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"premiumAmount\":270.50,\n  \"premiumName\":\"testpremiumName\",\n  \"premiumCode\": \"testpremiumCode\",\n  \"passportNumber\":\"555\",\n  \"categoryCode\":\"6B123144-2E3A-490E-BAEB-B59F09327B7C\",\n  \"planCode\":\"87e831b3-16be-49c9-994d-c2b52e9af113\",\n  \"departureDate\":\"24-APR-2018\",\n  \"arrivalDate\":\"29-APR-2018\",\n  \"days\":6,\n  \"passengerReference\":\"999999999\",\n  \"address1\":\"xyz\",\n  \"address2\":\"pqr\",\n  \"city\":\"Bengaluru\",\n  \"district\":\"Karnataka\",\n  \"state\":\"South\",\n  \"pincode\":\"50029\",\n  \"country\":\"India\",\n  \"phoneNumber\":\"2519501\",\n  \"mobileNumber\":\"9812160057\",\n    \"policyComment\":\"blah_blah_blah\",  \n  \"universityAddress\":\"koromangala\",\n  \"universityName\":\"Christ\",\n  \"name\":\"Ram\",\n  \"dateOfBirth\":\"05-Aug-1941\",\n  \"age\":22,\n  \"travelTagNumber\":987654321,\n  \"nominee\":\"Lakshaman\",\n  \"relation\":\"Brother\",\n  \"pastIllness\":\"None\",\n    \"emailAddress\":\"kj0171@yahoo.com\",\n    \"baseCharge\":929,\n    \"totalBaseCharge\":1022,\n    \"serviceTax\":126,\n    \"riderCode\":\"d2b58365-5a73-4748-aa8f-51e5e78a7aba \",\n    \"documentationCode\":9090,\n    \"available\":true\n  \n}"
+				},
+				"url": {
+					"raw": "{{host}}/b2b-insurance-service/v1/B2BDomINS/saveTravellerDetails",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"b2b-insurance-service",
+						"v1",
+						"B2BDomINS",
+						"saveTravellerDetails"
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "validatePayment",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/b2b-insurance-service/v1/B2BDomINS/validatePayment?superPnr=0603821333745&amountDisplayed=271&paymentOption=cp",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"b2b-insurance-service",
+						"v1",
+						"B2BDomINS",
+						"validatePayment"
+					],
+					"query": [
+						{
+							"key": "superPnr",
+							"value": "0603821333745",
+							"equals": true
+						},
+						{
+							"key": "amountDisplayed",
+							"value": "271",
+							"equals": true
+						},
+						{
+							"key": "paymentOption",
+							"value": "cp",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "paymentOptions",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "{{host}}/b2b-insurance-service/v1/B2BDomINS/paymentOptions?superPnr=0603821333745",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"b2b-insurance-service",
+						"v1",
+						"B2BDomINS",
+						"paymentOptions"
+					],
+					"query": [
+						{
+							"key": "superPnr",
+							"value": "0603821333745",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "createPolicy",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:5549/insurance-service/v1/B2BDomINS/createPolicy?superPnr=280283033993",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5549",
+					"path": [
+						"insurance-service",
+						"v1",
+						"B2BDomINS",
+						"createPolicy"
+					],
+					"query": [
+						{
+							"key": "superPnr",
+							"value": "280283033993",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "PaySwift/payment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://192.168.61.111/PaySwift/payment?product=B2BDomINS &merchant=yatra&client=DESKTOP&superPnr=0603821333745&uuid=17d64596-d2e8-44ab-a50c-c764bdd20bbd",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"61",
+						"111"
+					],
+					"path": [
+						"PaySwift",
+						"payment"
+					],
+					"query": [
+						{
+							"key": "product",
+							"value": "B2BDomINS ",
+							"equals": true
+						},
+						{
+							"key": "merchant",
+							"value": "yatra",
+							"equals": true
+						},
+						{
+							"key": "client",
+							"value": "DESKTOP",
+							"equals": true
+						},
+						{
+							"key": "superPnr",
+							"value": "0603821333745",
+							"equals": true
+						},
+						{
+							"key": "uuid",
+							"value": "17d64596-d2e8-44ab-a50c-c764bdd20bbd",
+							"equals": true
+						}
+					]
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

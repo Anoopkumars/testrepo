@@ -1,0 +1,288 @@
+{
+    "product": "B2BDomINS",
+    "superPnr": "2802850299683",
+    "ttid": "2802850299683",
+    "fareBreakup": {
+        "Total Cost": 271
+    },
+    "totalAmount": 271,
+    "agentPaymentOptions": {
+        "schargeApplicable": "CC,DC,NB",
+        "amountDetails": {
+            "CC": {
+                "AMEX": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "MASTER": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "VISA": {
+                    "totalAmount": 272,
+                    "surchargeWithGST": 2,
+                    "beforeSurchargeAmount": 271
+                },
+                "DINERS": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                }
+            },
+            "NB": {
+                "162": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "CRP": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SVC": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "BBC": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "ING": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "CSB_NB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SAR": {
+                    "totalAmount": 289,
+                    "surchargeWithGST": 18,
+                    "beforeSurchargeAmount": 271
+                },
+                "ADH": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "PNB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "IDB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "BBK": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "CBI": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "UTI": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "HDF": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "DBK": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "FBK": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "VJB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "OBC": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "CUB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "UNI": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "BBR": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "KBL": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "DBS": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SBH": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "IDS": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SBJ": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "SBI": {
+                    "totalAmount": 292,
+                    "surchargeWithGST": 22,
+                    "beforeSurchargeAmount": 271
+                },
+                "UBI": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "BOI": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "IOB": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "SBM": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "SYD": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SBP": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "JKB": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "BOM": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "DCB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "RBS": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SBT": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "TMB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "SIB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "CIT": {
+                    "totalAmount": 274,
+                    "surchargeWithGST": 3,
+                    "beforeSurchargeAmount": 271
+                },
+                "SCB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "CNB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "KVB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "LVC": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "DLB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "INB": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                },
+                "icicinet": {
+                    "totalAmount": 283,
+                    "surchargeWithGST": 12,
+                    "beforeSurchargeAmount": 271
+                }
+            },
+            "DC": {}
+        },
+        "resCode": 200,
+        "payOpt": "CP,CC,DC,NB,CASHCARD,indifi",
+        "sChargeApplicable": "CC,DC,NB",
+        "resMessage": "success"
+    },
+    "userDetails": {
+        "email": "rajnishyatra@gmail.com",
+        "mob": "9711199585"
+    },
+    "passThrough": false
+}
